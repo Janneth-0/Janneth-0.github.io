@@ -1,8 +1,95 @@
 body {
 background-color : black;
 }
+
 h1 {
     color:burlywood;
     text-align: center;
     font-size: 50px ;
+}
+
+.birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fondo_color {
+    background-color: rgb(170, 138, 95);
+    width: 400px;
+    border: 5px solid whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px ;
+    position: relative;
+}
+
+
+
+.grechen-fuemen-regular {
+    font-family: "Grechen Fuemen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    color: rgb(75, 56, 47);
+    font-size: 35px ;
+    
+}
+
+.img_card{
+    max-width: 100%;
+}
+
+.lov_era{
+    background-color: rgba(39, 90, 35, 0.466);
+    border:5px solid whitesmoke;
+    padding: 5px;
+    margin: 0 auto; 
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px ;
+}
+
+.conten_limit{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.contendor_padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu_padre{
+   display: flex;
+   justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(67, 3, 245);
+    text-decoration:underline;
+}
+
+li{
+    list-style: none;
+}
+
+.fondo_menu{
+    background-color: rgb(170, 138, 95);
+border: 5px solid whitesmoke;
+text-align: center;
+border-radius: 10px ;
+}
+
+.fondo_color:hover{
+    transform: scale(1.1);
+    transition: 3s;
 }

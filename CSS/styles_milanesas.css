@@ -2,16 +2,22 @@ body {
     background-color: black;
 }
 
-.birthstone-bounce-regular {
-    font-family: "Birthstone Bounce", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
 h1 {
     color:burlywood;
     text-align: center;
     font-size: 50px ;
+}
+
+h4 {
+    color: rgb(75, 56, 47);
+    font-size: 35px ;
+    
+}
+
+.birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .grechen-fuemen-regular {
@@ -35,12 +41,6 @@ h1 {
     max-width: 100%;
 }
 
-h4 {
-    color: rgb(75, 56, 47);
-    font-size: 35px ;
-    text-align: center;
-}
-
 .lov_era{
     background-color: rgba(39, 90, 35, 0.466);
     border:5px solid whitesmoke;
@@ -56,7 +56,7 @@ h4 {
     margin: 0 auto;
 }
 
-.contendor_padre{
+.conten_padre{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

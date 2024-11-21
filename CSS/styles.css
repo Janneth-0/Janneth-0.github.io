@@ -57,7 +57,7 @@ footer {
 }
 
 .img_card{
-    width: 400px;
+    max-width: 100%;
 }
 
 .text_id {
@@ -76,14 +76,24 @@ footer {
 }
 
 .portada{
-    width: 1050px;
-    height: 350px;
+    height: 500px;
+    width: 1200px;
+    padding: 30px;
+    margin: 30px;
 }
 
-.contenedor_padre{
+.conten_limit{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.contendor_padre{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-a:hover {
-    transform: scale(1.5);
+a:hover{
+    color: rgb(67, 3, 245);
+    text-decoration:underline;
 }
